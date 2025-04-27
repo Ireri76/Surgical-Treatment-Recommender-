@@ -71,15 +71,15 @@ try:
 except IndexError:
     st.error(f"⚠️ Invalid state: {state}. Please adjust input values.")
 
-# --- Footer ---
-st.markdown("---")
-st.markdown(
-    """
-    <div style='text-align: center; color: #999999; font-size: 12px; padding-top: 10px;'>
-        © Ireri Mugambi 2025. All rights reserved.
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-e_allow_html=True
+# --- Footer ---
+st.markdown("---")
+st.markdown(
+    """
+    <div style='text-align: center; color: #999999; font-size: 12px; padding-top: 10px;'>
+        © Ireri Mugambi 2025. All rights reserved.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+ml=True
 )
