@@ -70,3 +70,26 @@ try:
         st.write(f"Discretized State: {state}")
 except IndexError:
     st.error(f"⚠️ Invalid state: {state}. Please adjust input values.")
+
+# --- Sticky Footer ---
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f0f2f6;
+        color: #999999;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    </style>
+    <div class="footer">
+        © Ireri Mugambi 2025. All rights reserved.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
